@@ -1,0 +1,9 @@
+diff a/src/components/account/account/Journal/JournalForm.vue b/src/components/account/account/Journal/JournalForm.vue	(rejected hunks)
+@@ -34,7 +34,6 @@
+       :fields="slipFiled"
+     />
+     <h1>분개 </h1>
+-
+     <b-table
+       :items="GET_SELETED_JOURNALlIST"
+       :fields="journalFiled"

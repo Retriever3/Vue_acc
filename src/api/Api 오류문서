@@ -1,0 +1,4 @@
+ex) 아래같이 CORS 문제 발생시
+1.Access to XMLHttpRequest at 'http://localhost:8282/acc/account/slips20220318SLIP00009' from origin 'http://localhost:8081' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource
+--> 'http://localhost:8282/acc/account/slips20220318SLIP00009' 자세히 보면  마지막 slips20220318SLIP00009 이부분에 /가 없어서 위와 같은 오류가 났음.
+--> 수정
